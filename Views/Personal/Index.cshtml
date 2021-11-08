@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Personal Page";
+}
+
+<h1>Personal Page</h1>
+@model Personal
+
+
+@Html.LabelFor(c=>c.name, "NAME: ") @Model.name <br>
+@Html.LabelFor(m=>m.lastname, "LASTNAME: ") @Model.lastname <br>
+@Html.LabelFor(m=>m.age, "AGE: ") @Model.age
